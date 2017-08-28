@@ -3,6 +3,12 @@ A collection of algorithms implemented in scheme (developed and tested with <a h
 
 #### Currently implemented algorithms
 * Dynamic Programming
+  * fib
+       ```scheme
+       ;; Usage example
+       $ (fib 1000)
+       4.34665576869374e+208
+       ```
   * rod-cutting
        ```scheme
        ;; Usage example

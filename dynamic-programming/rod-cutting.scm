@@ -1,4 +1,3 @@
-
 ;; rod-cutting
 ;; Given a rod of length N, return the optimal cutting (i.e. the cutting that makes the most money).
 ;;
