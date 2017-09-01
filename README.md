@@ -15,3 +15,14 @@ A collection of algorithms implemented in scheme (developed and tested with <a h
        $ (rod-cutting #(0 1 5 8 9 10 17 17 20 24) 9)
        (25 (3 6))
        ```
+* Sorting Algorithms
+  * quicksort
+       ```scheme
+       ;; Non-randomized quicksort implementation
+       $ (quicksort #(10 1 100 -3 5 22 1))
+	   #(-3 1 1 5 10 22 100)
+
+	   ;; Randomized quicksort implementation
+	   $ (randomized-quicksort #(10 1 100 -3 5 22 1))
+	   #(-3 1 1 5 10 22 100)
+       ```
