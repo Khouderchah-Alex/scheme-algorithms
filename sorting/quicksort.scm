@@ -1,10 +1,4 @@
-
-;; vector-swap!
-;; Swaps the ith and jth elements of a given vector A
-(define (vector-swap! A i j)
-  (let ((t (vector-ref A i)))
-	(vector-set! A i (vector-ref A j))
-	(vector-set! A j t)))
+(load "../common/vector.scm")
 
 ;; lomuto-partition
 ;; Performs the partition function attributed to Lomuto
